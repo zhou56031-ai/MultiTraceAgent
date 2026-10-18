@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+.git/
+*.pem
+*.key
+*.log
+.mysql-root.env
+.venv/
+__pycache__/
+*.pyc
+data/
+updated/
+output/
+.DS_Store

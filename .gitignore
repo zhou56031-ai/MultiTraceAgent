@@ -1,0 +1,28 @@
+# 本地配置，可能包含密钥
+.env
+.env.*
+!.env.example
+.mysql-root.env
+*.pem
+*.key
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# 本项目的 Python 环境
+.venv/
+
+# Python 自动生成的缓存
+__pycache__/
+*.pyc
+
+# 任务运行时生成的数据和文件
+data/
+updated/
+output/
+
+# macOS 文件夹显示信息
+.DS_Store

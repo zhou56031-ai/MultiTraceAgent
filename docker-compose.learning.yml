@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    env_file:
+      - .env
+    ports:
+      - "127.0.0.1:${LEARNING_HOST_PORT:-8001}:8001"
+    volumes:
+      - ./data:/app/data
+      - ./updated:/app/updated
+      - ./output:/app/output
